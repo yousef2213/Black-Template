@@ -67,6 +67,10 @@
 @media only screen and (max-width: 992px) {
     .n {
         max-width: 0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 44444;
     }
 
     .link {

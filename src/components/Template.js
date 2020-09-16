@@ -6,7 +6,7 @@ export default function Template() {
   console.log(Projects);
   return (
     <ListWrapper>
-      <h6 className="font-main text-light text-capitalize pb-3">
+      <h6 className="font-main text-light text-capitalize pb-2">
         some templates
       </h6>
       <ul className="list-group back">
@@ -36,6 +36,7 @@ export default function Template() {
 }
 
 const ListWrapper = styled.div`
+  padding: 0 20px;
   .template1 {
     display: flex !important;
     justify-content: space-between;

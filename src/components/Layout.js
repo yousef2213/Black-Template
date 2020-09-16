@@ -8,7 +8,7 @@ export default class Layout extends Component {
           <div className="coll-1 rounded mt-3  px-0 n">
             <Navbar />
           </div>
-          <div className="col-12 col-md-10 col-lg-10 px-5 pt-5 bg-layout mx-auto rounded">
+          <div className="col-12 col-md-10 col-lg-10 pt-5 bg-layout mx-auto rounded">
             {this.props.children}
           </div>
         </div>
